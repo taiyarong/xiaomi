@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: '微软雅黑','苹方';
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 461542 */
+  src: url('https://at.alicdn.com/t/font_461542_sd8tbz1y30udi.eot');
+  src: url('https://at.alicdn.com/t/font_461542_sd8tbz1y30udi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_461542_sd8tbz1y30udi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_461542_sd8tbz1y30udi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_461542_sd8tbz1y30udi.svg#iconfont') format('svg');
+}
