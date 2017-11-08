@@ -205,7 +205,7 @@
 }
 .buy:hover{
 	background-color: #fff;
-	color: orangered;
+	color: orange;
 }
 .list-icon{
 	width: 76px;
@@ -590,31 +590,33 @@
 	background-color: rgba(0, 0, 0, .6);
 	color: #fff;
 }
-.button01{
+.banner .button01{
 	left: 234px;
 }
 .button02{
 	right: 0;
 }
-.banner-pages{
-	width: 140px;
+.banner .banner-pages{
+	width: 140px!important;
 	height: 10px;
 	list-style-type:;
 	position: absolute;
+	left: auto!important;
 	right:30px;
-	bottom: 10px; 
+	bottom: 20px!important; 
 	z-index: 999;
 }
-.banner-pages li{
+.banner-pages .swiper-pagination-bullet{
 	width: 6px;
 	height: 6px;
-	background-color: #eee;
 	border-radius: 50%;
 	float:left;
 	margin: 0 5px;
-	border: 2px solid #666;
+	border: 2px solid rgba(255, 255, 255, .5);
 	cursor: pointer;
 	overflow: hidden;
+	transition: all .5s linear;
+	background-color: rgba(0, 0, 0, .5);
 }
 .nav-search{
 	width: 296px;
@@ -681,57 +683,95 @@
 }
 .map-bottom{
 	width: 1226px;
-	height: 192px;
+	height: 112px;
 	margin: 40px auto;
-	
 }
-.map-items{
-    width: 160px;
-    height: 112px;
-   
-    float: left;
+.map-kuai{
+	width: 160px;
+	height: 112px;
+	font-size: 14px;
+	color: #757575;
+	float: left;
 }
-.map-item{
-    width: 160px;
-    height: 50px;
+.da{
+	margin-bottom: 15px;
 }
-.map-item1{
-    width: 160px;
-    height: 30px;
+.xiao{
+	font-size: 12px;
+	padding: 6px 0;
 }
-.map-item1:hover{
-    color: red;
+.xiao:hover{
+	color: orangered;
+	cursor: pointer;
 }
-.right{
-    width: 252px;
-    height: 112px;
-     float: right;
-     background-color: #fff;
-     border-left: 1px solid rgba(0, 0, 0, 0.3);
+.map-left{
+	width: 974px;
+	height: 112px;
+	border-right: 1px solid rgba(0, 0, 0, .2);
+	float: left;
 }
-.right-item{
-   text-align: center;
-   color: red;
-   font-size: 25px;
+.map-right{
+	width: 251px;
+	height: 112px;
+	float: right;
+	text-align: center;
+	font-size: 22px;
+	color: orangered;
 }
-.right-item2{
-    text-align: center;
-  margin-top: 5px;
-   font-size: 10px;
+.time{
+	font-size: 12px;
+	color: #616161;
+	padding-top: 5px;
 }
-.right-item3{
-    width: 120px;
-    height: 30px;
-    border: 1px solid red;
-    font-size: 10px;
-    color: #ff6700;
-    margin:0 auto;
-    cursor:pointer;
-    line-height: 30px;
-    text-align: center;
-    margin-top: 30px;
+.kefu{
+	width: 120px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 1px solid orangered;
+	font-size: 12px;
+	line-height: 30px;
 }
-.right-item3:hover{
-    background-color: #ff6700;
-    color: #fff;
+.kefu .iconfont{
+	font-size: 12px;
+}
+.kefu:hover{
+	background-color: orangered;
+}
+.kefu:hover{
+	color: white;
+	cursor: pointer;
+}
+.map-di{
+	width: 100%;
+	height: 166px;
+	background-color: #fafafa;
+}
+.map-neikuan{
+	width: 1226px;
+	margin: 0 auto;
+	padding-top: 5px;
+}
+.di-left{
+	padding-top: 10px;
+	padding-left: 10px;
+	float: left;
+	line-height: 18px;
+}
+.di-icp{
+	font-size: 12px;
+	color: #b0b0b0;
+}
+.map-logo{
+	width: 85px;
+	height: 28px;
+	float: right;
+	padding: 30px 5px;
+}
+.map-slogan{
+	width: 267px;
+	height: 19px;
+	margin: 0 auto;
+	padding-top: 110px;
+
 }
